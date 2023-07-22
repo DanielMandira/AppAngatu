@@ -1,0 +1,4 @@
+npm install @react-navigation/stack
+npm install react-native-gesture-handler
+
+teste
