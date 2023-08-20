@@ -9,7 +9,7 @@ import { useNavigation } from '@react-navigation/native';
 const {width, height} = Dimensions.get('window')
 export default function BemVindo() {
     setTimeout(()=>{
-        navigation.navigate('Home')}, 5000)
+        navigation.navigate('HomeTabs')}, 5000)
   // sempre navigation dentro do export para funcionar
   const navigation = useNavigation();
   const GradientText = ({ colors, ...rest }) => {

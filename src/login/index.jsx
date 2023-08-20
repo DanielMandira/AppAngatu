@@ -64,7 +64,7 @@ export default function Login() {
                     </Text>
                   </TouchableOpacity>
                 </View>
-                <TouchableOpacity onPress={()=> navigation.navigate('Home')}>
+                <TouchableOpacity onPress={()=> navigation.navigate('HomeTabs')}>
                   <Text style={styles.textSemConta}>OU ENTRE SEM UMA CONTA</Text>
                 </TouchableOpacity>
               </View>

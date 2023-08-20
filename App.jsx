@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator, StackView } from '@react-navigation/stack';
-import Home from './src/home/index';
+import HomeTabs from './src/navigators/index';
 import Login from './src/login';
 import Cadastro from './src/cadastro/index';
 import Caduser from './src/cadastro/cadastroUser';
@@ -24,8 +24,8 @@ export default function App() {
             }
           } />
           <Stack.Screen
-          name='Home'
-          component={Home}
+          name='HomeTabs'
+          component={HomeTabs}
           options={
             {
               headerTransparent: true,
@@ -81,6 +81,7 @@ export default function App() {
             }
           }
           />
+          
       </Stack.Navigator>
     </NavigationContainer>
   );
