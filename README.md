@@ -68,7 +68,7 @@ Inicie o servidor
 ## Autores
 
 [![Daniel GitHub](https://img.shields.io/badge/Daniel%20Mandira-404040?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DanielMandira)
-[![Daniel linkedin](https://img.shields.io/badge/Daniel%20Mandira-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)]([www.linkedin.com/in/daniel-augusto-mandira](https://www.linkedin.com/in/daniel-augusto-mandira/))
+[![Daniel linkedin](https://img.shields.io/badge/Daniel%20Mandira-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/daniel-augusto-mandira/)
 
 [![Amanda GitHub](https://img.shields.io/badge/Amanda%20Castro-404040?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mandis-ncs)
 [![Amanda linkedin](https://img.shields.io/badge/Amanda%20Castro-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/amanda-n-castro/)
