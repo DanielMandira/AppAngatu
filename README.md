@@ -17,11 +17,10 @@ Angatu é um aplicativo mobile que usa gamificação para incentivar o turismo n
 <div align='center'>
 
 ## Screenshots
-![Screenshot_2023-07-22-15-01-38-347_host exp exponent](https://github.com/DanielMandira/AppAngatu/assets/105872910/85c73757-bf61-47dc-a160-b5060ba5481f)
-![Screenshot_2023-07-22-15-01-41-359_host exp exponent](https://github.com/DanielMandira/AppAngatu/assets/105872910/c630d1ca-e83b-4da1-b7c7-49077a94839c)
-![Screenshot_2023-07-22-15-02-01-438_host exp exponent](https://github.com/DanielMandira/AppAngatu/assets/105872910/1ff5b060-7f73-479d-9ea0-f7d7099dc420)
-![Vídeo-do-WhatsApp-de-2023-08-29-à_s_-13 12 49](https://github.com/DanielMandira/AppAngatu/assets/105872910/66ac7795-35f0-487c-ace0-6ea62aedbc33)
-
+<img src='https://github.com/DanielMandira/AppAngatu/assets/105872910/85c73757-bf61-47dc-a160-b5060ba5481f' width='250px'>
+<img src='https://github.com/DanielMandira/AppAngatu/assets/105872910/c630d1ca-e83b-4da1-b7c7-49077a94839c' width='250px'>
+<img src='https://github.com/DanielMandira/AppAngatu/assets/105872910/1ff5b060-7f73-479d-9ea0-f7d7099dc420' width='250px'>
+<img src='https://github.com/DanielMandira/AppAngatu/assets/105872910/66ac7795-35f0-487c-ace0-6ea62aedbc33' width='250px'>
 </div
 
 
