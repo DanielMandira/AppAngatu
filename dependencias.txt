@@ -4,3 +4,4 @@ npx expo install react-native-web@~0.18.10 react-dom@18.2.0 @expo/webpack-config
 npm install --save @react-native-masked-view/masked-view
 npx expo install react-native-reanimated
 npm install @react-navigation/bottom-tabs
+npm i react-native-snap-carousel

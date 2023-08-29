@@ -6,15 +6,53 @@ import {
   StyleSheet,
   Text,
   Image,
-  View
+  View,
+  TouchableOpacity
 } from 'react-native';
 import perfil from '../../assets/imgs/Perfil.jpeg';
 import headerBack from '../../assets/imgs/HeaderBack.jpg';
 import { FontAwesome5, MaterialIcons } from '@expo/vector-icons';
 import { FlatList, ScrollView, TextInput } from 'react-native-gesture-handler';
+import Carousel from 'react-native-snap-carousel';
 const { width, height } = Dimensions.get('screen')
+data = [
+   {
+     index: 0,
+     Img: require('../../assets/imgs/Perfil.jpeg')
+   },
+   {
+     index: 1,
+     Img: require('../../assets/imgs/HeaderBack.jpg')
+   }
+ ]
 export default function Home() {
   const navigation = useNavigation();
+
+  function MyCarousel() {
+    function renderItem({ item }) {
+      return (
+        <View>
+          <TouchableOpacity>
+            <Image source={item.Img} />
+          </TouchableOpacity>
+        </View>
+      );
+    }
+    return (
+      <Carousel
+        layout={'tinder'}
+        layoutCardOffset={90}
+        data={data}
+        keyExtractor={(item)=>item.index}
+        renderItem={renderItem}
+        sliderWidth={400}
+        itemWidth={350}
+        margin={5}
+        loop={true}
+        showsHorizontalScrollIndicator={true}
+      />
+    );
+  }
   return (
     <View style={styles.container}>
       <View style={{ width: width, height: 150 }}>
@@ -72,13 +110,10 @@ export default function Home() {
         </View>
         <View style={{}}>
           <View>
-          <Text>Populares</Text>
-          <ScrollView showsHorizontalScrollIndicator horizontal>
-          <View style={{flexDirection:'row'}}>
-            <Image source={headerBack} size={150}/>
-            <Image source={headerBack} size={150}/>
-          </View>
-            </ScrollView>
+            <Text>Populares</Text>
+            <View>
+              <MyCarousel />
+            </View>
           </View>
         </View>
       </View>
@@ -91,6 +126,6 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#fff',
     alignItems: 'center',
-    height:height
+    height: height
   },
 });
