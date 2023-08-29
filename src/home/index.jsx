@@ -112,6 +112,7 @@ export default function Home() {
           <View>
             <Text>Populares</Text>
             <View>
+              <Text> TESTANDO CAROUSEL</Text>
               <MyCarousel />
             </View>
           </View>
