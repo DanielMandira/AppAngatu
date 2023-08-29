@@ -14,6 +14,7 @@ Angatu é um aplicativo mobile que usa gamificação para incentivar o turismo n
 
 - Foi uma iniciativa do Hackatur do Sebrae e do movimento "Vale do Futuro"
 
+<div align='center'>
 
 ## Screenshots
 ![Screenshot_2023-07-22-15-01-38-347_host exp exponent](https://github.com/DanielMandira/AppAngatu/assets/105872910/85c73757-bf61-47dc-a160-b5060ba5481f)
@@ -21,6 +22,7 @@ Angatu é um aplicativo mobile que usa gamificação para incentivar o turismo n
 ![Screenshot_2023-07-22-15-02-01-438_host exp exponent](https://github.com/DanielMandira/AppAngatu/assets/105872910/1ff5b060-7f73-479d-9ea0-f7d7099dc420)
 ![Vídeo-do-WhatsApp-de-2023-08-29-à_s_-13 12 49](https://github.com/DanielMandira/AppAngatu/assets/105872910/66ac7795-35f0-487c-ace0-6ea62aedbc33)
 
+</div
 
 
 ## Rodando localmente
