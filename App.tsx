@@ -1,14 +1,14 @@
 import * as React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
-import { createStackNavigator, StackView } from '@react-navigation/stack';
+import { createStackNavigator } from "@react-navigation/stack";
 import HomeTabs from './src/navigators/index';
-import Login from './src/login';
+import Login from './src/login/index';
 import Cadastro from './src/cadastro/index';
 import Caduser from './src/cadastro/cadastroUser';
 import CadEmp from './src/cadastro/cadastroEmpresa';
 import BemVindo from './src/login/boasVindas';
 const Stack = createStackNavigator();
-export default function App() {
+const App: React.FC = () => {
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName='Login'>
@@ -85,4 +85,5 @@ export default function App() {
       </Stack.Navigator>
     </NavigationContainer>
   );
-}
+};
+export default App;
