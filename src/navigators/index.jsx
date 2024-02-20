@@ -6,7 +6,7 @@ import Mapa from '../mapa/index';
 import { FontAwesome5 } from '@expo/vector-icons';
 const Tab = createBottomTabNavigator();
 const { width, height } = Dimensions.get('screen');
-const HomeTabs: React.FC = () => {
+export default function HomeTabs() {
     return (
         <Tab.Navigator screenOptions={{
             tabBarStyle: {
@@ -55,5 +55,4 @@ const HomeTabs: React.FC = () => {
 
         </Tab.Navigator>
     );
-};
-export default HomeTabs;
+}

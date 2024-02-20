@@ -5,8 +5,3 @@ npm install --save @react-native-masked-view/masked-view
 npx expo install react-native-reanimated
 npm install @react-navigation/bottom-tabs
 npm i react-native-snap-carousel
-npm i react-native-maps
-npm install react-native-maps --save-exact
-expo install expo-location
-expo install expo-permissions
-npm install @react-navigation/native @react-navigation/stack
